@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.6;
   color: var(--dark-color);
   background-color: var(--light-color);
@@ -134,7 +134,8 @@ button {
   display: flex;
   align-items: center;
   padding-top: 80px;
-  background: url("https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?q=80&w=815&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center center/cover;
+  background: url("https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?q=80&w=815&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    no-repeat center center/cover;
 }
 
 .hero-content {
@@ -215,7 +216,7 @@ button {
 .add-to-cart {
   background-color: var(--primary-color);
   color: var(--white-color);
-  padding: 0.5rem ;
+  padding: 0.5rem;
   border-radius: 50px;
 }
 
@@ -223,7 +224,7 @@ button {
   .menu-container {
     grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
   }
-  
+
   .nav-links {
     display: block;
   }
@@ -235,4 +236,73 @@ button {
   .cart-icon {
     display: block;
   }
+}
+
+.waww {
+  height: 100vh;
+}
+.waww-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+  padding: 50px;
+}
+
+.akbar {
+  height: 400px;
+  width: 400px;
+}
+
+.foto-akbar {
+  border-radius: 20px;
+  height: 400px;
+  width: 400px;
+}
+
+.about-p {
+  width: 50%;
+}
+
+.burger {
+  text-align: center;
+}
+
+.tombol-kontak {
+  background-color: var(--primary-color);
+  border-radius: 70px;
+  color: var(--white-color);
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.Falah {
+  height: 100vh;
+  padding-top: 100px;
+}
+
+.Falah-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+  padding: 50px;
+}
+
+.kontak{
+  text-align: center;
+  font-size: 50px;
+}
+
+.kontak-p {
+  text-align: center;
+}
+
+.contact-p {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
 }
