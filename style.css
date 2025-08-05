@@ -236,17 +236,22 @@ button {
   .cart-icon {
     display: block;
   }
+
+  .waww-content {
+    flex-direction: row;
+  }
+
+  .waww {
+    height: 100vh;
+  }
 }
 
-.waww {
-  height: 100vh;
-}
 .waww-content {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   color: #000;
   padding: 50px;
+  flex-direction: column;
 }
 
 .akbar {
@@ -260,9 +265,7 @@ button {
   width: 400px;
 }
 
-.about-p {
-  width: 50%;
-}
+
 
 .burger {
   text-align: center;
@@ -289,7 +292,7 @@ button {
   padding: 50px;
 }
 
-.kontak{
+.kontak {
   text-align: center;
   font-size: 50px;
 }
@@ -304,5 +307,34 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
 }
+
+  @media (min-width: 768px) {
+    .menu-container {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    }
+  
+    .nav-links {
+      display: block;
+    }
+  
+    .mobile-menu-btn {
+      display: none;
+    }
+  
+    .cart-icon {
+      display: block;
+    }
+  
+    .waww-content {
+      flex-direction: row;
+    }
+  
+    .waww {
+      height: 100vh;
+    }
+
+    .about-p {
+      width: 50%;
+    } 
+  }
